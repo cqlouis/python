@@ -1,5 +1,4 @@
 def fib(n):
-	print("*",end = "")
 	if n < 0:
 		return print("Errous input")
 	if n == 0:
