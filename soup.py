@@ -11,4 +11,14 @@ and they lived at the bottom of a well.</p>
 """
 from bs4 import BeautifulSoup
 bsObj = BeautifulSoup(html,'lxml')
-print(bsObj.prettify())
+# #print(bsObj.prettify())
+# for x in bsObj.findAll('a'):
+#     print(x.get('href'))
+# #print(bsObj.findAll('a'))
+
+# print(bsObj.get_text())
+
+tag = bsObj.a
+
+# print(tag.name)
+print(tag.string)
